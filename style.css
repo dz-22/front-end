@@ -1,0 +1,104 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body
+{
+    background-color: rgb(212, 204, 193);
+}
+
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 48, 85);
+    padding: 10px;
+
+}
+
+.form
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+    margin: 50px;
+}
+
+
+nav
+{
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#logo
+{
+    width:150px;
+    border-radius: 150px;
+}
+
+.nav
+{
+    padding: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border: 1px solid;
+}
+
+
+.divc
+{
+    margin: 10px;
+    padding: 20px;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    border: 5px solid rgb(231, 231, 240);
+    line-height: 50px;
+    box-shadow: 0px 8px 8px  rgb(99, 114, 114);
+    background-color: azure;
+    align-content: center;
+    
+}
+.av
+{
+    padding: 10px;
+    color: rgb(247, 240, 240);
+    background-color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color: rgb(6, 11, 58);
+    border: 1px solid;
+}
+
+footer
+{
+    text-align: center;
+    background-color: rgb(28, 48, 85);
+    padding: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+#forum
+{
+    display: block;
+}
+
